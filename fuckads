@@ -1,0 +1,658 @@
+[Adblock Plus 2.0]
+
+! Title: EvilGoogle---狂操法则
+! Expires: 30 days 
+! Homepage: https://github.com/FateRover/list/raw/master/fuckads.txt
+
+
+! 风车动漫15sAD 
+||*.6998.cc/pic/fgr/dm*_*.swf 
+||*.dm530.com/pic/fgr/dm*_*.swf 
+6998.cc###adv
+m.dm530.net##.pageLine
+
+
+
+*.com/js/indextop.js|
+*.com/js/config.js|
+
+
+! 优酷强制登录
+||static.youku.com/v*/index/js/popup.js 
+||static.youku.com/v*/index/js/qwindow.js 
+||static.youku.com/v*/paycenter/js/cps.js
+m.youku.com###FOODGXC_60j2s
+m.youku.com##.Banner > .border-bottom
+m.youku.com##div:nth-of-type(10) > .pop.IOS-pop
+m.youku.com##div:nth-of-type(10) > .mask
+
+! 点草腾讯视频广告
+|http://imgcache.qq.com/tencentvideo_v1/player/MediaPlugin.swf
+||imgcache.qq.com/tencentvideo_v1/player/partialup/MediaPlugin.swf?*
+v.qq.com###mod_float_box
+
+
+!狂草百家号
+baidu.com##.result:has-text(baijiahao.baidu.com) 
+baidu.com##[data-log*="'mu':'https://baijiahao.baidu.com"]
+baidu.com##[data-log*="'mu':'http://baijiahao.baidu.com"]
+
+!狂操贴吧广告
+tieba.baidu.com##.img_desc
+tieba.baidu.com##.footer_logo
+tieba.baidu.com##.footer_read
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###threadListGroupCnt
+tieba.baidu.com###selectsearch-icon[href^="http://www.baidu.com/s"]
+tieba.baidu.com###thread_list>li:nth-of-type(7)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad\
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="\"user_id\":1"]):not([data-field*="\"user_id\":2"]):not([data-field*="\"user_id\":3"]):not([data-field*="\"user_id\":4"]):not([data-field*="\"user_id\":5"]):not([data-field*="\"user_id\":6"]):not([data-field*="\"user_id\":7"]):not([data-field*="\"user_id\":8"]):not([data-field*="\"user_id\":9"])
+||imgsrc.baidu.com/forum/pic/item/252dd42a2834349bdfde342fc3ea15ce37d3be44.jpg$image
+wapp.baidu.com##.appPromote.pb.\39 392
+wapp.baidu.com##.fixed_bar_logo
+wapp.baidu.com##.showBar.fixed_bar
+m.baidu.com##.tc-card:nth-of-type(2)
+tieba.baidu.com##.ui_image_header_bottom
+tieba.baidu.com##.j_videoFootDownBtn.videoFooter
+
+!狂操贴吧触点推广
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.footer_logo
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
+
+!百度客户端推广
+||m.baidu.com/se/static/js/modules/invoke/app/*
+tieba.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
+tieba.baidu.com###pagelet_encourage-celebrity\/pagelet\/celebrity
+tieba.baidu.com##.suggestion
+www.baidu.com###ftCon
+www.baidu.com###u1 > .mnav[href="http://news.baidu.com"]
+www.baidu.com###u1 > .mnav[href="http://www.hao123.com"]
+www.baidu.com###u1 > .mnav[href^="http://www.nuomi.com/"]
+tieba.baidu.com###j_p_postlist > .noborder_bottom.noborder.l_post_bright.j_l_post.l_post > .d_post_content_firstfloor.d_post_content_main > .p_content_nameplate.p_content_icon_row1.p_content > .save_face_bg_2.save_face_bg > .j_fisfbb.fisfbb.ui_bubble_wrap
+tieba.baidu.com###j_p_postlist > .l_post_bright.j_l_post.l_post:nth-of-type(3) > .d_post_content_main > .p_content_nameplate.p_content_icon_row1.p_content > .save_face_bg_2.save_face_bg > .j_fisfbb.fisfbb.ui_bubble_wrap
+tieba.baidu.com##.edui-editor-msg
+tieba.baidu.com###tb_rich_poster > .editor_wrapper.poster_body > .ueditor_container.editor_content_wrapper.poster_component > .old_style_wrapper > .edui-container > .edui-editor-body > .edui-editor-msg > p
+||baidu.com/api/proxyapi?tag=adv&
+sohu.com,tieba.baidu.com,uuk14.com##.advertise 
+tieba.baidu.com##.post_client_down 
+tieba.baidu.com##a[href="redirect?tbjump=http%3A%2F%2Ftieba.baidu.com%2Fdownload-client%2F&lp=footer_andriod_client"]
+tieba.baidu.com###guide_fc 
+tieba.baidu.com##.pass-smsSwitchWrapper 
+tieba.baidu.com##.firework-wrap 
+tieba.baidu.com##.ui_bubble_wrap.j_wrap 
+tieba.baidu.com##.light_top_ext_area 
+tieba.baidu.com###app-special 
+tieba.baidu.com##.btn.more_content_btn 
+tieba.baidu.com##.pb_prompt_background.is_prompt_show 
+tieba.baidu.com##.pb_prompt_content.is_prompt_show 
+tieba.baidu.com###bottom-share-button 
+tieba.baidu.com##.bottom-bar-button.j_btn_zan.btn_zan 
+tieba.baidu.com##.j_footer_link.footer_link.footer_link_highlight 
+tieba.baidu.com##.c > div:nth-of-type(8) > a[href^="redirect"]:nth-of-type(8) 
+tieba.baidu.com##.c > .s:nth-of-type(6) 
+tieba.baidu.com##.c > .h:nth-of-type(5) 
+tieba.baidu.com##.c > .adTop 
+tieba.baidu.com##.c > .adpage 
+tieba.baidu.com##.forum_recommend_c 
+tieba.baidu.com##.j_post_list_item + li[class]:not(.j_post_list_item) 
+tieba.baidu.com##.j_container.container > .main.j_main > .cool_game.j_cool_game 
+tieba.baidu.com##DIV.dia_wrapper 
+tieba.baidu.com##DIV.dia_mask 
+tieba.baidu.com###more_content > .more_btn_package
+tieba.baidu.com###index-app-overlay
+tieba.baidu.com##.ti_item.j_click_stats
+tieba.baidu.com##.btn_wrap
+tieba.baidu.com##.frs_pb_leadapp_pop_img.frs_pb_leadapp_pop_show
+tieba.baidu.com##.frs_pb_leadapp_pop.j_frs_pb_leadapp_pop.frs_pb_leadapp_pop_show
+tieba.baidu.com##.frs_pb_leadapp_pop_close.j_frs_pb_leadapp_pop_close.frs_pb_leadapp_pop_show
+tieba.baidu.com###pb_imgs > a:nth-of-type(1)
+tieba.baidu.com###pb_imgs > .pb_imgs_right2 > span
+tieba.baidu.com##DIV[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 959px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
+wapbaike.baidu.com###chain + div[id]
+pan.baidu.com##.clearfix.center.buyvip-pack
+
+
+!网盘垃圾
+pan.baidu.com##.welcome-box
+pan.baidu.com##.welcome-mask
+pan.baidu.com##.cent-banner.banner-active
+
+!贴吧垃圾抬头
+tieba.baidu.com##.u_bdhome
+tieba.baidu.com##.j_search_nav.search_nav
+tieba.baidu.com##.nani_app_download_box.aside_region
+wapp.baidu.com###bottom-share-button
+wapp.baidu.com##.appPromote.\33 108
+wapp.baidu.com##.j_client_ghost_icon.client_ghost_icon
+tieba.baidu.com##.j_daoliu_sign_in_show.daoliu_sign_in_show.j_daoliu_sign_in_prompt.daoliu_sign_in_prompt
+tieba.baidu.com##.post_top_client
+tieba.baidu.com##.client_spread_text
+tieba.baidu.com##a[href^="redirect"]:nth-of-type(3)
+tieba.baidu.com##a[href^="redirect"]:nth-of-type(4)
+tieba.baidu.com##.s:nth-of-type(7)
+tieba.baidu.com##.advertise_top
+tieba.baidu.com##.j_tab_selected.tab_head_item
+tieba.baidu.com##.j_tab_discovery.tab_head_item
+tieba.baidu.com##.top_message_count.j_top_message_count
+tieba.baidu.com##.hongbao_page_pop_common.hongbao_page_pop_con
+tieba.baidu.com##.hongbao_page_pop_common.hongbao_page_pop_back
+m.baidu.com##.tc-card:nth-of-type(3)
+m.baidu.com###appBanner
+
+!百度垃圾js 
+www.baidu.com##div.ecr-pc-game-gn-also-search-biz,table[id^="400"],table[id^="500"],div[id^="400"],div[id^="300"],a[href$="e.baidu.com/?refer=666"] 
+||ecmb.bdimg.com^ 
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id]) ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy 
+baidu.com###results > .ec_wise_ad:nth-of-type(1) > .ec_ad_results > .ec_adv_first.ec_wise_pp.ec_resitem.c-container
+baidu.com###ec_wise_adtopnum
+
+||bdimg.share.baidu.com/static/js/* 
+||sclick.baidu.com^ 
+@@||bdstatic.com/??*, 
+/adsense/* 
+||bdstatic.com/tb/mobile/sglobal/img/bannerLogo_ 
+tieba.baidu.com##.client_ad_topBanner_all 
+tieba.baidu.com##.tl_shadow + li[class]:not(.tl_shadow) 
+tieba.baidu.com##.j_toast_outerdiag-outerdialog-toast 
+tieba.baidu.com###index-tuijian 
+tieba.baidu.com##.index_press_area.user_entrance_item.index_icon.user_safe_entrance.j_user_safe_entrance 
+tieba.baidu.com##.index_press_area.user_entrance_item.index_icon.user_tbean.j_user_tbean 
+tieba.baidu.com##.client_ghost_icon.j_client_ghost_icon 
+tieba.baidu.com##.myPhoto 
+tieba.baidu.com##.dialog-outer 
+www.baidu.com###results > .c-result.result:nth-of-type(3) > .c-container 
+baidu.com##.ec_wise_ad 
+www.baidu.com###ec_wise_adtopnum 
+tieba.baidu.com##.j_container.container > .daoliu_sign_in_show.j_daoliu_sign_in_prompt.daoliu_sign_in_prompt
+tieba.baidu.com##.daoliu_sign_in_prompt_img.daoliu_sign_in_show
+tieba.baidu.com###main > .bottom-wonderful-recommend
+tieba.baidu.com###thread_list > .cleafix.t_con
+tieba.baidu.com##.intro
+tieba.baidu.com###passport-accRealName-pop
+tieba.baidu.com##.dialogJ.dialogJfix.dialogJshadow.ui-draggable[style="z-index: 50001; width: 427px; left: 718px; top: 363.5px;"]
+tieba.baidu.com##DIV[style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;"]
+tieba.baidu.com##[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 930px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_live_list
+/cpro/ui/*
+##.a_pb
+##.wp.a_f
+||cbjs.baidu.com^
+||pos.baidu.com^
+||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
+||baidu.com/resource/baichuan/
+||baidu.com/tequan/adpadmin_feed/
+||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
+||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
+||imgsrc.baidu.com/tieba/pic/item/$image
+||jiaoyu.baidu.com/tieba/
+||m.tiebaimg.com/timg?wapp^*imgtype=0$image
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id])
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
+baidu.com###ec_im_container
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###encourage_entry
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
+tieba.baidu.com###j_light_see_index
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
+tieba.baidu.com###pblist > li[class]:not(.j_post_list_item)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
+baidu.com###search_bottomad
+bilibili.com,bilibili.kankanews.com,bilibili.tv##.ad-f
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_banner
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_info.poster_success
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
+tieba.baidu.com##.tl_shadow + * + li[class]:not(.tl_shadow)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
+tieba.baidu.com##div[class][lgoinprompt="prompt"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
+@@||static.hdslb.com/ad-images/$image
+.com/ads/$image,object,subdocument
+/ads-arc.
+/pagead2.
+###content-ad
+##.ad-content
+##.ad-note
+##.adsbygoogle
+##.banner-ads
+##.content-ad
+tieba.baidu.com###ifrId_1442989236730_0
+tieba.baidu.com##.baichuan-slot
+tieba.baidu.com##.u_menu_item.u_menu_tshow
+tieba.baidu.com##.u_appcenterEntrance
+tieba.baidu.com##.u_app
+tieba.baidu.com##.u_tbmall
+tieba.baidu.com##.u_wallet
+tieba.baidu.com##.u_joinvip
+tieba.baidu.com##.split
+tieba.baidu.com##DIV[style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;"]
+tieba.baidu.com##[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 930px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
+tieba.baidu.com##.dialogJmodal[style="z-index: 50000; width: 1873px; height: 1657px;"]
+tieba.baidu.com##.u_hermes
+tieba.baidu.com##IFRAME[style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1"]
+tieba.baidu.com##[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 965px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
+tieba.baidu.com##.dialogJ.dialogJfix.dialogJshadow.ui-draggable[style="z-index: 50001; width: 427px; left: 718px; top: 381px;"]
+tieba.baidu.com##[style="z-index: 50000; width: 1873px; height: 1683px;"]
+baidu.com##DIV.fixed
+baidu.com###middle_banner
+baidu.com##DIV#bottom
+tieba.baidu.com##img[src="http://static.tieba.baidu.com/tb/mobile/wother20150515_512179/style/img/appdownloadguide/old-new-bg.png"]
+tieba.baidu.com##img[src="http://static.tieba.baidu.com/tb/mobile/wother20150515_512179/style/img/appdownloadguide/old-new-down.png"]
+baidu.com##.result.c-result[tpl="wise_app"]
+m.baidu.com##A[href="http://e2.baidu.com/m2/?refer=205&ssid=70ceb9c8b8e8b4f3b7a8bac34d4a&from=844b&uid=&pu=sz%401320_1004%2Cta%40iphone_2_4.4_19_&bd_page_type=1"]
+wappass.baidu.com###realName-formWrapper
+wappass.baidu.com##.mod-page-tipInfo
+wappass.baidu.com##.realName-login-success
+wappass.baidu.com##.pass-header
+
+zhidao.baidu.com###ui-tooltip-0
+zhidao.baidu.com###userbar-msg
+zhidao.baidu.com###wgt-topic
+zhidao.baidu.com###wgt-user
+zhidao.baidu.com##.cms-slide
+zhidao.baidu.com##.cms-slide.cms-slide-lazy
+zhidao.baidu.com##.shop-entrance
+zhidao.baidu.com##.wgt-push.mod-shadow.last
+zhidao.baidu.com##.widget-sma
+tieba.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
+baidu.com##.result-op.c-container[tpl="soft"]
+
+
+!贴吧顶端视频
+tieba.baidu.com###video_frs_head
+
+!baiduwap
+wapbaike.baidu.com###main > .hide.footer > .zhidaoImport > .link[href="http://dl.ops.baidu.com/baiduzhidao_AndroidPhone_baikedibu.apk"] 
+zhidao.baidu.com###youx 
+ 
+!qq空间垃圾模块(手机/PC) 
+h5.qzone.qq.com##.js-the-bottom.mod-native-tips-wrap
+h5.qzone.qq.com###nav_bar_playbar
+h5.qzone.qq.com###nav_bar_vip
+h5.qzone.qq.com##li:nth-of-type(5)
+m.qzone.com##LI[global-hot="topbar.vip"]
+m.qzone.com##LI[global-hot="topbar.topicgroup"]
+m.qzone.com##.mod-native-tips-wrap.js-the-bottom
+m.qzone.com##.hotkey
+m.qzone.com##.feed.sogo-ad.dataItem
+m.qzone.com##.feed.dataItem[data-params="feedskey=*"]
+ui.ptlogin2.qzone.com###guideBG 
+ui.ptlogin2.qzone.com###guideJump 
+ui.ptlogin2.qzone.com###btn_app_down[href^="http://m.qzone.com/l"] 
+m.qzone.com###container > .js-the-bottom.mod-native-tips-wrap ###top_header > .vip-entrance 
+m.qzone.com###nav_bar_playbar
+user.qzone.qq.com###gdtApprec
+user.qzone.qq.com##li[id^="fct_20050606_"]
+ctc.qzs.qq.com###openVipButton
+user.qzone.qq.com###gdtdiscover
+user.qzone.qq.com###QM_Container_100002
+user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
+user.qzone.qq.com###QM_Container_100005
+
+!ｑｑ空间傻逼视频推荐
+qzone.qq.com##.f-s-s:has-text(好友热播)
+
+www.pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
+
+!A站客户端推广
+m.acfun.tv###prompt-box
+m.acfun.tv###btn-app
+
+!知乎客户端推广
+zhihu.com##.app-promotion-bar
+www.zhihu.com##.DownloadGuide
+www.zhihu.com##.AdblockBanner
+www.zhihu.com##.GaussianBlur.AppPromotionBar
+www.zhihu.com##.QuestionPage > span
+www.zhihu.com##.Question-main > div:nth-of-type(2)
+www.zhihu.com##.AppMagicBanner--bottom.AppMagicBanner
+www.zhihu.com##.AppBanner.Card
+www.zhihu.com##.is-shown.OpenInApp.OpenInAppButton
+www.zhihu.com##.QuestionAdBanner.Card
+www.zhihu.com##.MobileModal-wrapper
+www.zhihu.com##.show.register.SignFlow.mutiview-dialog
+www.zhihu.com##.modal-wrapper
+www.zhihu.com##.show.mutiview-dialog-bg
+
+!cnbeta垃圾
+||moogos.com^$third-party
+||cnbetacdn.com/320x50.
+m.cnbeta.com##.cbimage-fixed
+www.cnbeta.com###mask
+
+
+
+!isp垃圾,主要指手机上的联通电信"流量查询帮手"之类的垃圾
+||106.119.0.78
+||221.179.140.145$image
+||221.179.140.145:9090/*
+
+
+!垃圾城通
+ctfile.com##li:nth-of-type(3) > span
+ctfile.com##div.row-fluid:nth-of-type(5)
+ctfile.com##.row-fluid > .pull-right
+ctfile.com##.text-center.row-fluid
+ctfile.com##.in.fade.modal-backdrop
+ctfile.com###infoModal
+
+!购物跟踪
+alicdn\.com/.+tracker.+index-min\.js.*$
+taobao\.com/my_taobao_api/recent_visit\.json.*$
+alicdn\.com/.+guessulike-min\.css.*$
+
+!maomiav广告
+.com/assets/js/common/discor/discor.js
+.com/discor_list.js
+.com/count.js
+.com/assets/js/common/discor.js
+
+!垃圾图床 多为H
+~sinaimg.cn##img[width="960"][src*=".sinaimg."]
+@@||gg.img123456.com^
+www.proporn.com###adx_ad
+www.proporn.com###bottom_banner_block
+www.empflix.com##.lastLiAv.pInterstitialIn
+www.empflix.com##.pInterstitial
+www.empflix.com###imfb
+||img.yhdichan.com/img/weishi/noc/4/640x150.jpg$image
+m.douban.com##.show.bottom_ad_download
+m.sohu.com##.detail-bottom
+
+
+
+s.m.taobao.com###o9784
+
+sourceforge.net###banner-sterling
+sourceforge.net###sidebar > .sterling:nth-of-type(1)
+
+
+!ｊａｎｄａｎ垃圾
+i.jandan.net###_ta_qaz_ball
+
+!脚本之家
+||bdjs.jb51.net/s$subdocument
+m.jb51.net##.count
+m.jb51.net##.asd:nth-of-type(3)
+m.jb51.net###scroller3
+m.jb51.net##.asd:nth-of-type(2)
+m.jb51.net##.tjyxph.similar
+m.jb51.net##.asd:nth-of-type(4)
+
+!百度文库垃圾
+wk.baidu.com###topAd
+wk.baidu.com###fengchaoFixed
+wk.baidu.com###sf-edu-wenku-id-right-fixed-ad-wrap
+wk.baidu.com###addToHomeBtn
+||wenku-cms.bj.bcebos.com/v1/na/*.*$image
+wk.baidu.com###ad2to3
+
+
+
+
+scpfoundation.123ubb.com##.addthis-smartlayers-mobile.addthis-smartlayers.at-share-dock-outer
+
+||http://static.adf.ly/js/display.js
+
+
+!垃圾漂浮物
+www.pc6.com##.m-open-box
+www.pc6.com##.m-black-bg
+###leftCouple
+###leftFloat + #rightFloat
+###rightCouple
+###rightCouple + #leftFloat
+##.bottomSponsor
+##.topSponsor
+||adm-cnzz.net^
+##.ad-table
+||adm.cnzz.net^$third-party
+||https://www.*.com/js/indextop.js
+||https://www.*.com/js/config.js
+
+!下载站下载器
+www.jb51.net##h3:nth-of-type(2)
+www.jb51.net###gaosu
+www.fxxz.com##.show_adv.page_all
+xiazai.zol.com.cn###downloader_main
+xiazai.zol.com.cn##.main > .sub-section:nth-of-type(4)
+xiazai.zol.com.cn##.sub-section:nth-of-type(5)
+tieba.baidu.com##.app_download_box.aside_region
+tieba.baidu.com##.j_tbnav_tab:nth-of-type(4)
+tieba.baidu.com##.u_member
+||tb2.bdstatic.com/tb/img/forum_content_bg_7d89132.png$image
+tieba.baidu.com###pagelet_frs-aside\/pagelet\/ad
+tieba.baidu.com##.hover_btn
+tieba.baidu.com##.app_download_box.region_bright
+tieba.baidu.com##.right_bright.right_section > div:nth-of-type(6)
+tieba.baidu.com##.j_tbnav_tab:nth-of-type(5) > .j_tbnav_tab_a.j_nav_local_tab_link
+tieba.baidu.com##.right_bright.right_section > div:nth-of-type(5)
+
+||com/pic/fgr/$script,object-subrequest
+
+!bilibili垃圾客户端
+bilibili.com##.wrapper > div:nth-of-type(6)
+bilibili.com##.player-inner-top.pink
+www.bilibili.com###b_app_link
+m.bilibili.com##.index__downloadBtn__src-home-topArea-
+m.bilibili.com###b_app_link
+m.bilibili.com###b_app_link
+m.bilibili.com##.wrapper > div:nth-of-type(5)
+m.bilibili.com##.reg-tooltip
+m.bilibili.com###link_to_app
+m.bilibili.com##.index__lastTips__src-videoPage-player-
+m.bilibili.com##.index__downloadBtn__src-videoPage-topArea-
+m.bilibili.com##.index__downloadBtn__src-partition-topArea-
+m.bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
+m.bilibili.com##.index__upBtn__src-videoPage-topArea-
+m.bilibili.com##.index__cccTips__src-videoPage-player-
+m.bilibili.com##.index__optionLink__src-videoPage-footer-:nth-of-type(2)
+m.bilibili.com##.index__cccTips__M-videoPage-player-
+bilibili.com##DIV.i_menu.i_menu_login
+m.bilibili.com##.index__cccTips__M-videoPage-player-
+m.bilibili.com##.index__upBtn__M-videoPage-topArea-
+
+
+!m.5tps.com
+||quw18.com^	
+||jqkan.com^$third-party
+
+!woaitingshu
+|http://m.woaitingshu.com/css/*.js
+
+!9DM
+www.9damao.com##.portal_block_summary
+www.9damao.com###hezuo
+
+
+
+m.woaitingshu.com##.nowidth.on
+
+tQieba.baidu.com##.showBar.fixed_bar
+
+tieba.baidu.com##.iSlider-wrapper-container-hot-thread
+m.5tps.com##div:nth-of-type(8)
+m.sogou.com###bottom_appad
+i.jandan.net###tucao-gg
+m.joyme.com###main > .cont
+||m2h95.pishan168.com/suc/51ads/640200/63c.gif$image
+m.sogou.com##.vr-recommend
+||mpic.jmgehn.cn/tr-2/2017/08/0/1501749088305.gif$image
+m.biqugewx.com###cZ115061841597923_mask
+i.jandan.net##div:nth-of-type(8)
+
+www.techbang.com##.mobile_full_ads
+
+www.techbang.com###scupio_interstitial
+
+m.sohu.com###nicecontainer
+
+www.google.com.hk###taw
+www.ghacks.net##.mrf-madFluid.mrf-madHeight-250.mrf-madWidth-300.mrf-madLoaded.adSemiInvisible.sRoba.mrf-preInsertedMad.mad.mrf-adv:nth-of-type(3)
+www.ghacks.net###mrf-footer
+www.ghacks.net###mrf-1
+www.ghacks.net###wrapper
+www.ghacks.net##.footer
+
+
+
+||img.yokaoo.com/img/360weishiceshi/7/640x200-2.gif$image
+
+m.wuxiaworld.com##.cc-color-override-688238583.cc-bottom.cc-theme-edgeless.cc-type-info.cc-floating.cc-window
+
+i.jandan.net##.wechat-hide.comment-hide
+m.youtube.com##.pfb
+dota2-zh.gamepedia.com##.cc_bottom.cc_banner-wrapper
+www.cnbeta.com###dfb-wrapper-848966144-1678-1512110177417 > ins
+cloud.abc119.cc###ico-p14860qnrmk
+
+cs.rin.ru###tt_mobile_banner
+www.cnbeta.com##.cooperation.item:nth-of-type(4)
+www.cnbeta.com###dfb-wrapper-848966144-1677-1512110177417 > ins
+
+!垃圾城通网盘
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(3)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(4)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(2)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(1) > span
+ctfile.com##div.download-simple-box.download-box:nth-of-type(2)
+
+
+
+
+
+
+!irc傻逼推广
+debiancn.org## li:has-text(拉人)
+
+!=====================================================以下屏蔽sbam====================================
+
+!=================================================PC帖子列表==========================================
+！ybxiao1111
+tieba.baidu.com##[data-field*='"author_name":"ybxiao1111"']
+！僭主政權
+tieba.baidu.com##[data-field*='"author_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
+!牛牛的约定
+tieba.baidu.com##[data-field*='"author_name":"\\u725b\\u725b\\u7684\\u7ea6\\u5b9a"']
+!zhangwuji156
+tieba.baidu.com##[data-field*='"author_name":"zhangwuji156"']
+!Joo_Ng
+tieba.baidu.com##[data-field*='"author_name":"Joo_Ng"']
+!IP_兄
+tieba.baidu.com##[data-field*='"author_name":"IP_\\u5144"']
+!z505985755
+tieba.baidu.com##[data-field*='"author_name":"z505985755"']
+!本吧第一僵尸
+tieba.baidu.com##[data-field*='"author_name":"\\u672c\\u5427\\u7b2c\\u4e00\\u8bb2\\u5e08"']
+!犬夜叉完结篇续
+tieba.baidu.com##[data-field*='"author_name":"\\u72ac\\u591c\\u53c9\\u5b8c\\u7ed3\\u7bc7\\u7eed"']
+!雅涵
+tieba.baidu.com##[data-field*='"author_name":"\\u96c5\\u4e36\\u6db5"']
+!国王归来x
+tieba.baidu.com##[data-field*='"author_name":"\\u56fd\\u738b\\u5f52\\u6765X"']
+!悟空M
+tieba.baidu.com##[data-field*='"author_name":"\\u609f\\u7a7aM\\u7d2b\\u971e"']
+!塘栖美男
+tieba.baidu.com##[data-field*='"author_name":"\\u5858\\u6816\\u7f8e\\u7537"']
+!七色寒冰梦
+tieba.baidu.com##[data-field*='"author_name":"\\u4e03\\u8272\\u5bd2\\u51b0\\u68a6"']
+!卡彭少將
+tieba.baidu.com##[data-field*='"author_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
+!=================================================手机帖子列表=========================================
+tieba.baidu.com##li:has-text(zhangwuji156)
+tieba.baidu.com##li:has-text(本吧第一讲师)
+tieba.baidu.com##li:has-text(牛牛的约定)
+tieba.baidu.com##li:has-text(国王归来X)
+
+
+!==================================================贴吧层主===========================================
+！ybxiao1111
+tieba.baidu.com##[data-field*='"user_name":"ybxiao1111"']
+！僭主政權
+tieba.baidu.com##[data-field*='"user_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
+!zhangwuji156
+tieba.baidu.com##[data-field*='"user_name":"zhangwuji156"']
+!Joo_Ng
+tieba.baidu.com##[data-field*='"user_name":"Joo_Ng"']
+!IP_兄
+tieba.baidu.com##[data-field*='"user_name":"IP_\\u5144"']
+!z505985755
+tieba.baidu.com##[data-field*='"user_name":"z505985755"']
+!本吧第一僵尸
+tieba.baidu.com##[data-field*='"user_name":"\\u672c\\u5427\\u7b2c\\u4e00\\u8bb2\\u5e08"']
+!犬夜叉完结篇续
+tieba.baidu.com##[data-field*='"user_name":"\\u72ac\\u591c\\u53c9\\u5b8c\\u7ed3\\u7bc7\\u7eed"']
+!国王归来
+tieba.baidu.com##[data-field*='"user_name":"\\u56fd\\u738b\\u5f52\\u6765X"']
+!悟空
+tieba.baidu.com##[data-field*='"user_name":"\\u609f\\u7a7aM\\u7d2b\\u971e"']
+!七色x
+tieba.baidu.com##[data-field*='"user_name":"\\u4e03\\u8272\\u5bd2\\u51b0\\u68a6"']
+!雅、涵
+tieba.baidu.com##[data-field*='"user_name":"\\u96c5\\u4e36\\u6db5"']
+!塘栖美男
+tieba.baidu.com##[data-field*='"user_name":"\\u5858\\u6816\\u7f8e\\u7537"']
+!卡彭少將
+tieba.baidu.com##[data-field*='"user_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
+
+!==================================================手机页面==================================================
+tieba.baidu.com##li.list_item[data-info*="ybxiao1111"]
+tieba.baidu.com##li.list_item[data-info*="\\u50ed\\u4e3b\\u653f\\u6b0a"]
+tieba.baidu.com##li.list_item[data-info*="zhangwuji156"]
+tieba.baidu.com##div.i:has-text(zhangwuji156)
+tieba.baidu.com##li.list_item[data-info*="Joo_Ng"]
+tieba.baidu.com##li.list_item[data-info*="IP_\\u5144"]
+tieba.baidu.com##li.list_item[data-info*="z505985755"]
+tieba.baidu.com##li.list_item[data-info*="\\u672c\\u5427\\u7b2c\\u4e00\\u8bb2\\u5e08"]
+tieba.baidu.com##li.list_item[data-info*="\\u72ac\\u591c\\u53c9\\u5b8c\\u7ed3\\u7bc7\\u7eed"]
+tieba.baidu.com##li.list_item[data-info*="\\u56fd\\u738b\\u5f52\\u6765X"]
+tieba.baidu.com##li.list_item[data-info*="\\u609f\\u7a7aM\\u7d2b\\u971e"]
+tieba.baidu.com##li.list_item[data-info*="\\u4e03\\u8272\\u5bd2\\u51b0\\u68a6"]
+tieba.baidu.com##li.list_item[data-info*="\\u96c5\\u4e36\\u6db5"]
+tieba.baidu.com##li.list_item[data-info*="\\u96f6\\u4e0b\\u516b\\u5ea6e"]
+tieba.baidu.com##li.list_item[data-info*="\\u5858\\u6816\\u7f8e\\u7537"]
+tieba.baidu.com##li.list_item[data-info*="\\u5361\\u5f6d\\u5c11\\u5c07"]
+!===========================================================================================================
+
+!==================================================贴吧楼中楼================================================
+tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'僭主政權'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'zhangwuji156'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'Joo_Ng'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'IP_兄'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'z505985755'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'本吧第一讲师'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'犬夜叉完结篇续'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'国王归来X\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'塘栖美男\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'雅丶涵\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'悟空M紫霞\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'七色寒冰梦\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111\'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'卡彭少將\'"]  
+!=============================================贴吧楼中楼手机页面==============================================
+!=============================================贴吧楼中楼手机页面==============================================
+tieba.baidu.com##[data-info*="\ybxiao1111\"]
+tieba.baidu.com##[data-info*="\僭主政權\"]
+tieba.baidu.com##[data-info*="\zhangwuji156\"]
+tieba.baidu.com##[data-info*="\Joo_Ng\"]
+tieba.baidu.com##[data-info*="\IP_兄\"]
+tieba.baidu.com##[data-info*="\z505985755\"]
+tieba.baidu.com##[data-info*="\本吧第一讲师\"]
+tieba.baidu.com##[data-info*="\犬夜叉完结篇续\"]
+tieba.baidu.com##[data-info*="\国王归来X\"]
+tieba.baidu.com##[data-info*="\雅丶涵\"]
+tieba.baidu.com##[data-info*="\塘栖美男\"]
+tieba.baidu.com##[data-info*="\悟空M紫霞\"]
+tieba.baidu.com##[data-info*="\七色寒冰梦\"]
+tieba.baidu.com##[data-info*="\ybxiao1111\"]
+tieba.baidu.com##[data-info*="\卡彭少將\"]
+!===========================================以上屏蔽sbam完毕=======================================
