@@ -32,12 +32,15 @@ m.youku.com##div:nth-of-type(10) > .mask
 v.qq.com###mod_float_box
 
 
+
+
 !狂草百家号
 baidu.com##.result:has-text(baijiahao.baidu.com) 
 baidu.com##[data-log*="'mu':'https://baijiahao.baidu.com"]
 baidu.com##[data-log*="'mu':'http://baijiahao.baidu.com"]
 
 !狂操贴吧广告
+
 tieba.baidu.com##.img_desc
 tieba.baidu.com##.footer_logo
 tieba.baidu.com##.footer_read
@@ -62,6 +65,9 @@ tieba.baidu.com##.j_videoFootDownBtn.videoFooter
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
 
 !百度客户端推广
+tieba.baidu.com##.pb_cut_hot_recommend
+tieba.baidu.com##.father_cut_daoliu
+tieba.baidu.com##.j_enter_lzl_daoliu
 ||m.baidu.com/se/static/js/modules/invoke/app/*
 tieba.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
 tieba.baidu.com###pagelet_encourage-celebrity\/pagelet\/celebrity
@@ -150,7 +156,6 @@ baidu.com###ec_wise_adtopnum
 
 ||bdimg.share.baidu.com/static/js/* 
 ||sclick.baidu.com^ 
-@@||bdstatic.com/??*, 
 /adsense/* 
 ||bdstatic.com/tb/mobile/sglobal/img/bannerLogo_ 
 tieba.baidu.com##.client_ad_topBanner_all 
@@ -214,7 +219,7 @@ tieba.baidu.com##.tl_shadow + * + li[class]:not(.tl_shadow)
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
-@@||static.hdslb.com/ad-images/$image
+　
 .com/ads/$image,object,subdocument
 /ads-arc.
 /pagead2.
@@ -357,7 +362,6 @@ alicdn\.com/.+guessulike-min\.css.*$
 
 !垃圾图床 多为H
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
-@@||gg.img123456.com^
 www.proporn.com###adx_ad
 www.proporn.com###bottom_banner_block
 www.empflix.com##.lastLiAv.pInterstitialIn
