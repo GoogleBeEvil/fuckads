@@ -83,6 +83,7 @@ www.baidu.com###u1 > .mnav[href^="http://www.nuomi.com/"]
 tieba.baidu.com###j_p_postlist > .noborder_bottom.noborder.l_post_bright.j_l_post.l_post > .d_post_content_firstfloor.d_post_content_main > .p_content_nameplate.p_content_icon_row1.p_content > .save_face_bg_2.save_face_bg > .j_fisfbb.fisfbb.ui_bubble_wrap
 tieba.baidu.com###j_p_postlist > .l_post_bright.j_l_post.l_post:nth-of-type(3) > .d_post_content_main > .p_content_nameplate.p_content_icon_row1.p_content > .save_face_bg_2.save_face_bg > .j_fisfbb.fisfbb.ui_bubble_wrap
 tieba.baidu.com##.edui-editor-msg
+baidu.com##:xpath(//div[contains(concat(' ',@class,' '), ' result ') and descendant::a[contains(@href,'https://baijiahao.baidu.com')]])
 tieba.baidu.com###tb_rich_poster > .editor_wrapper.poster_body > .ueditor_container.editor_content_wrapper.poster_component > .old_style_wrapper > .edui-container > .edui-editor-body > .edui-editor-msg > p
 ||baidu.com/api/proxyapi?tag=adv&
 sohu.com,tieba.baidu.com,uuk14.com##.advertise 
