@@ -365,7 +365,8 @@ alicdn\.com/.+guessulike-min\.css.*$
 .com/discor_list.js
 .com/count.js
 .com/assets/js/common/discor.js
-
+.com/home/js/float.js
+.com/home/js/discor.js
 !垃圾图床 多为H
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 www.proporn.com###adx_ad
