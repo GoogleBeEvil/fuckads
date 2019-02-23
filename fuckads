@@ -538,8 +538,11 @@ ctfile.com##div.download-simple-box.download-box:nth-of-type(2)
 
 
 
-
-
+!douyu
+www.douyu.com##.broadcastDiv-af5699
+www.douyu.com##.BarrageBanner
+www.douyu.com##[class^="multiBitRate"]
+ 
 
 !irc傻逼推广
 debiancn.org## li:has-text(拉人)
