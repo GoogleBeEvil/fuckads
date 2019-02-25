@@ -7,6 +7,8 @@
 !=================================================PC帖子列表==========================================
 ！ybxiao1111
 tieba.baidu.com##[data-field*='"author_name":"ybxiao1111"']
+！ybxiao1111小号--忆海
+tieba.baidu.com##[data-field*='"author_name":"\\u5fc6\\u6d77"']
 ！僭主政權
 tieba.baidu.com##[data-field*='"author_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
 !牛牛的约定
@@ -45,6 +47,8 @@ tieba.baidu.com##li:has-text(国王归来X)
 !==================================================贴吧层主===========================================
 ！ybxiao1111
 tieba.baidu.com##[data-field*='"user_name":"ybxiao1111"']
+！ybxiao1111小号--忆海
+tieba.baidu.com##[data-field*='"user_name":"\\u5fc6\\u6d77"']
 ！僭主政權
 tieba.baidu.com##[data-field*='"user_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
 !zhangwuji156
@@ -74,6 +78,7 @@ tieba.baidu.com##[data-field*='"user_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
 
 !==================================================手机页面==================================================
 tieba.baidu.com##li.list_item[data-info*="ybxiao1111"]
+tieba.baidu.com##li.list_item[data-info*="\\u5fc6\\u6d77"]
 tieba.baidu.com##li.list_item[data-info*="\\u50ed\\u4e3b\\u653f\\u6b0a"]
 tieba.baidu.com##li.list_item[data-info*="zhangwuji156"]
 tieba.baidu.com##div.i:has-text(zhangwuji156)
@@ -93,6 +98,7 @@ tieba.baidu.com##li.list_item[data-info*="\\u5361\\u5f6d\\u5c11\\u5c07"]
 
 !==================================================贴吧楼中楼================================================
 tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111'"]
+tieba.baidu.com##[data-field*="\'user_name\':\'忆海'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'僭主政權'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'zhangwuji156'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'Joo_Ng'"]
@@ -110,6 +116,7 @@ tieba.baidu.com##[data-field*="\'user_name\':\'卡彭少將\'"]
 !=============================================贴吧楼中楼手机页面==============================================
 !=============================================贴吧楼中楼手机页面==============================================
 tieba.baidu.com##[data-info*="\ybxiao1111\"]
+tieba.baidu.com##[data-info*="\忆海\"]
 tieba.baidu.com##[data-info*="\僭主政權\"]
 tieba.baidu.com##[data-info*="\zhangwuji156\"]
 tieba.baidu.com##[data-info*="\Joo_Ng\"]
