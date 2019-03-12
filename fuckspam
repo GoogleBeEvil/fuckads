@@ -38,6 +38,8 @@ tieba.baidu.com##[data-field*='"author_name":"\\u4e03\\u8272\\u5bd2\\u51b0\\u68a
 !卡彭少將
 tieba.baidu.com##[data-field*='"author_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
 !=================================================手机帖子列表=========================================
+!ybxiao1111小号--忆海
+tieba.baidu.com##li:has-text(忆海)
 tieba.baidu.com##li:has-text(zhangwuji156)
 tieba.baidu.com##li:has-text(本吧第一讲师)
 tieba.baidu.com##li:has-text(牛牛的约定)
