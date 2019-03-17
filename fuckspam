@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EvilGoogle---狂操贴吧spam
-! Expires: 30 days 
+! Expires: 3 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckspam
 !=====================================================以下屏蔽sbam====================================
 
@@ -29,8 +29,6 @@ tieba.baidu.com##[data-field*='"author_name":"\\u72ac\\u591c\\u53c9\\u5b8c\\u7ed
 tieba.baidu.com##[data-field*='"author_name":"\\u96c5\\u4e36\\u6db5"']
 !国王归来x
 tieba.baidu.com##[data-field*='"author_name":"\\u56fd\\u738b\\u5f52\\u6765X"']
-!悟空M
-tieba.baidu.com##[data-field*='"author_name":"\\u609f\\u7a7aM\\u7d2b\\u971e"']
 !塘栖美男
 tieba.baidu.com##[data-field*='"author_name":"\\u5858\\u6816\\u7f8e\\u7537"']
 !七色寒冰梦
@@ -71,8 +69,7 @@ tieba.baidu.com##[data-field*='"user_name":"\\u56fd\\u738b\\u5f52\\u6765X"']
 tieba.baidu.com##[data-field*='"user_name":"\\u609f\\u7a7aM\\u7d2b\\u971e"']
 !七色x
 tieba.baidu.com##[data-field*='"user_name":"\\u4e03\\u8272\\u5bd2\\u51b0\\u68a6"']
-!雅、涵
-tieba.baidu.com##[data-field*='"user_name":"\\u96c5\\u4e36\\u6db5"']
+
 !塘栖美男
 tieba.baidu.com##[data-field*='"user_name":"\\u5858\\u6816\\u7f8e\\u7537"']
 !卡彭少將
@@ -90,7 +87,6 @@ tieba.baidu.com##li.list_item[data-info*="z505985755"]
 tieba.baidu.com##li.list_item[data-info*="\\u672c\\u5427\\u7b2c\\u4e00\\u8bb2\\u5e08"]
 tieba.baidu.com##li.list_item[data-info*="\\u72ac\\u591c\\u53c9\\u5b8c\\u7ed3\\u7bc7\\u7eed"]
 tieba.baidu.com##li.list_item[data-info*="\\u56fd\\u738b\\u5f52\\u6765X"]
-tieba.baidu.com##li.list_item[data-info*="\\u609f\\u7a7aM\\u7d2b\\u971e"]
 tieba.baidu.com##li.list_item[data-info*="\\u4e03\\u8272\\u5bd2\\u51b0\\u68a6"]
 tieba.baidu.com##li.list_item[data-info*="\\u96c5\\u4e36\\u6db5"]
 tieba.baidu.com##li.list_item[data-info*="\\u96f6\\u4e0b\\u516b\\u5ea6e"]
@@ -111,7 +107,6 @@ tieba.baidu.com##[data-field*="\'user_name\':\'犬夜叉完结篇续'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'国王归来X\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'塘栖美男\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'雅丶涵\'"]
-tieba.baidu.com##[data-field*="\'user_name\':\'悟空M紫霞\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'七色寒冰梦\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'卡彭少將\'"]  
@@ -129,7 +124,6 @@ tieba.baidu.com##[data-info*="\犬夜叉完结篇续\"]
 tieba.baidu.com##[data-info*="\国王归来X\"]
 tieba.baidu.com##[data-info*="\雅丶涵\"]
 tieba.baidu.com##[data-info*="\塘栖美男\"]
-tieba.baidu.com##[data-info*="\悟空M紫霞\"]
 tieba.baidu.com##[data-info*="\七色寒冰梦\"]
 tieba.baidu.com##[data-info*="\ybxiao1111\"]
 tieba.baidu.com##[data-info*="\卡彭少將\"]
