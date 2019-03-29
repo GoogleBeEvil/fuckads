@@ -5,6 +5,8 @@
 !=====================================================以下屏蔽sbam====================================
 
 !=================================================PC帖子列表==========================================
+！冷泠2016
+tieba.baidu.com##[data-field*='"author_name":"\\u51b7\\u6ce02016"']
 ！ybxiao1111
 tieba.baidu.com##[data-field*='"author_name":"ybxiao1111"']
 ！ybxiao1111小号--忆海
@@ -36,6 +38,8 @@ tieba.baidu.com##[data-field*='"author_name":"\\u4e03\\u8272\\u5bd2\\u51b0\\u68a
 !卡彭少將
 tieba.baidu.com##[data-field*='"author_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
 !=================================================手机帖子列表=========================================
+tieba.baidu.com##li:has-text(冷泠2016)
+
 !ybxiao1111小号--忆海
 tieba.baidu.com##li:has-text(忆海)
 tieba.baidu.com##li:has-text(zhangwuji156)
@@ -45,6 +49,9 @@ tieba.baidu.com##li:has-text(国王归来X)
 
 
 !==================================================贴吧层主===========================================
+
+！冷泠2016
+tieba.baidu.com##[data-field*='"user_name":"冷泠2016"']
 ！ybxiao1111
 tieba.baidu.com##[data-field*='"user_name":"ybxiao1111"']
 ！ybxiao1111小号--忆海
@@ -73,6 +80,8 @@ tieba.baidu.com##[data-field*='"user_name":"\\u5858\\u6816\\u7f8e\\u7537"']
 tieba.baidu.com##[data-field*='"user_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
 
 !==================================================手机页面==================================================
+冷泠2016
+tieba.baidu.com##li.list_item[data-info*="冷泠2016"]
 tieba.baidu.com##li.list_item[data-info*="ybxiao1111"]
 tieba.baidu.com##li.list_item[data-info*="\\u5fc6\\u6d77"]
 tieba.baidu.com##li.list_item[data-info*="\\u50ed\\u4e3b\\u653f\\u6b0a"]
@@ -92,6 +101,8 @@ tieba.baidu.com##li.list_item[data-info*="\\u5361\\u5f6d\\u5c11\\u5c07"]
 !===========================================================================================================
 
 !==================================================贴吧楼中楼================================================
+冷泠2016
+tieba.baidu.com##[data-field*="\'user_name\':\'冷泠2016'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'忆海'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'僭主政權'"]
@@ -109,6 +120,8 @@ tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'卡彭少將\'"]  
 !=============================================贴吧楼中楼手机页面==============================================
 !=============================================贴吧楼中楼手机页面==============================================
+
+tieba.baidu.com##[data-info*="\冷泠2016\"]
 tieba.baidu.com##[data-info*="\ybxiao1111\"]
 tieba.baidu.com##[data-info*="\忆海\"]
 tieba.baidu.com##[data-info*="\僭主政權\"]
