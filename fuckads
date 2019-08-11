@@ -63,6 +63,8 @@ wapp.baidu.com##.showBar.fixed_bar
 m.baidu.com##.tc-card:nth-of-type(2)
 tieba.baidu.com##.ui_image_header_bottom
 tieba.baidu.com##.j_videoFootDownBtn.videoFooter
+！狂操贴吧秀点 游戏 商城
+tieba.baidu.com##.u_game,.u_xiu8,.u_mytbmall
 
 !狂操贴吧触点推广
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.footer_logo
