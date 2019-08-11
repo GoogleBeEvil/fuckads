@@ -51,7 +51,7 @@ tieba.baidu.com##li:has-text(国王归来X)
 !==================================================贴吧层主===========================================
 
 ！冷泠2016
-tieba.baidu.com##[data-field*='"user_name":"冷泠2016"']
+tieba.baidu.com##[data-field*='"user_name":"\\u51b7\\u6ce02016"']
 ！ybxiao1111
 tieba.baidu.com##[data-field*='"user_name":"ybxiao1111"']
 ！ybxiao1111小号--忆海
