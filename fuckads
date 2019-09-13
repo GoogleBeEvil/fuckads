@@ -65,6 +65,12 @@ tieba.baidu.com##.ui_image_header_bottom
 tieba.baidu.com##.j_videoFootDownBtn.videoFooter
 ！狂操贴吧秀点 游戏 商城
 tieba.baidu.com##.u_game,.u_xiu8,.u_mytbmall
+tieba.baidu.com##.search_back_box
+! 2019/2/19 https://www.baidu.com
+www.baidu.com##.qrcodeCon
+www.baidu.com##.bdbriimg.bdbri
+www.baidu.com##.bri
+
 
 !狂操贴吧触点推广
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.footer_logo
@@ -472,7 +478,7 @@ m.bilibili.com##.index__cccTips__M-videoPage-player-
 bilibili.com##DIV.i_menu.i_menu_login
 m.bilibili.com##.index__cccTips__M-videoPage-player-
 m.bilibili.com##.index__upBtn__M-videoPage-topArea-
-
+www.bilibili.com##.mobile.nav-item
 
 !m.5tps.com
 ||quw18.com^	
@@ -551,3 +557,13 @@ www.douyu.com##[class^="multiBitRate"]
 debiancn.org## li:has-text(拉人)
 
 
+www.9damao.com##.acpbn.bml.bm
+www.9damao.com##div.cl.flg.bmw.bm:nth-of-type(1)
+www.9damao.net##.cl.z.c1extra
+||www.9damao.net/static/js/common_extra.js?b8u$script,domain=www.9damao.net
+www.9damao.net##.cl.z.c1extra
+www.9damao.com##object
+
+www.nexusmods.com##.areplacer
+www.nexusmods.com###donation_banner_wrapper
+www.nexusmods.com##.beta-banner-wrapper
