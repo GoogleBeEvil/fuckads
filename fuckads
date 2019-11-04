@@ -488,8 +488,8 @@ www.bilibili.com##.mobile.nav-item
 |http://m.woaitingshu.com/css/*.js
 
 !9DM
-www.9damao.com##.portal_block_summary
-www.9damao.com###hezuo
+www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.portal_block_summary
+www.9damao.com,www.9damaomods.com,zhongyidiantong.com###hezuo
 www.9damao.net##div.cl.flg.bmw.bm:has-text(自运营游戏专区)
 
 
@@ -557,12 +557,13 @@ www.douyu.com##[class^="multiBitRate"]
 debiancn.org## li:has-text(拉人)
 
 
-www.9damao.com##.acpbn.bml.bm
-www.9damao.com##div.cl.flg.bmw.bm:nth-of-type(1)
-www.9damao.net##.cl.z.c1extra
-||www.9damao.net/static/js/common_extra.js?b8u$script,domain=www.9damao.net
-www.9damao.net##.cl.z.c1extra
-www.9damao.com##object
+www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.acpbn.bml.bm
+wwww.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:nth-of-type(1)
+www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
+www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
+www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##object
+||static.anquan.org/static/outer/js/aq_auth.js$script
+||*/static/js/common_extra.js$script
 
 www.nexusmods.com##.areplacer
 www.nexusmods.com###donation_banner_wrapper
