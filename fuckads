@@ -446,6 +446,20 @@ m.bilibili.com##.index__cccTips__M-videoPage-player-
 bilibili.com##DIV.i_menu.i_menu_login
 m.bilibili.com##.index__upBtn__M-videoPage-topArea-
 www.bilibili.com##.mobile.nav-item
+www.bilibili.com##.bilibili-player-video-top
+www.bilibili.com##.bilibili-player-electric-panel-wrap-list-head
+www.bilibili.com##.video-page-game-card
+www.bilibili.com##.reply-notice
+www.bilibili.com###fixed_app_download
+www.bilibili.com##.mobile-link-l
+www.bilibili.com##.footer-wrp
+www.bilibili.com##.international-footer
+search.bilibili.com##.international-footer
+www.bilibili.com###activity_vote
+www.bilibili.com##.feedback-btn
+! bilibili视频播放完后的其他视频推荐
+www.bilibili.com##.bilibili-player-electric-panel-wrap
+www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
 
 !m.5tps.com
 ||quw18.com^	
@@ -531,20 +545,26 @@ debiancn.org## li:has-text(拉人)
 www.cnbeta.com##.swiper-slide:has-text(京东)
 www.cnbeta.com##.item:has-text(优惠券)
 
-! 
-www.bilibili.com##.bilibili-player-video-top
-www.bilibili.com##.bilibili-player-electric-panel-wrap-list-head
-www.bilibili.com##.video-page-game-card
-www.bilibili.com##.reply-notice
-
 
 !微云垃圾
 www.weiyun.com##.modal-mask
 www.weiyun.com##.announcement-notice.modal-show.modal
 
-! bilibili视频播放完后的其他视频推荐
-www.bilibili.com##.bilibili-player-electric-panel-wrap
-www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
+
 
 ! wordpress cookies声明
 wordpress.com##.widget_eu_cookie_law_widget.widget
+
+www.nexusmods.com##.areplacer
+www.nexusmods.com###rj-vortex
+www.nexusmods.com###rj-footer
+
+
+
+
+
+tieba.baidu.com##.tieba_notice_theme2.tieba_notice
+tieba.baidu.com##.tbui_aside_float_bar
+tieba.baidu.com##.card_banner_link.card_banner
+
+18comic.*##.hidden-xs.forum-entry.wrapper
