@@ -1,5 +1,3 @@
-[Adblock Plus 2.0]
-
 ! Title: EvilGoogle---狂操法则
 ! Expires: 30 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
@@ -35,7 +33,6 @@ tieba.baidu.com##li:has(> a.j_click_stats)
 
 tieba.baidu.com##.tl_shadow_for_app
 tieba.baidu.com##.img_desc
-tieba.baidu.com##.footer_logo
 tieba.baidu.com##.footer_read
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###threadListGroupCnt
 tieba.baidu.com###selectsearch-icon[href^="http://www.baidu.com/s"]
@@ -81,7 +78,6 @@ tieba.baidu.com###j_p_postlist > .noborder_bottom.noborder.l_post_bright.j_l_pos
 tieba.baidu.com###j_p_postlist > .l_post_bright.j_l_post.l_post:nth-of-type(3) > .d_post_content_main > .p_content_nameplate.p_content_icon_row1.p_content > .save_face_bg_2.save_face_bg > .j_fisfbb.fisfbb.ui_bubble_wrap
 tieba.baidu.com##.edui-editor-msg
 baidu.com##:xpath(//div[contains(concat(' ',@class,' '), ' result ') and descendant::a[contains(@href,'https://baijiahao.baidu.com')]])
-tieba.baidu.com###tb_rich_poster > .editor_wrapper.poster_body > .ueditor_container.editor_content_wrapper.poster_component > .old_style_wrapper > .edui-container > .edui-editor-body > .edui-editor-msg > p
 ||baidu.com/api/proxyapi?tag=adv&
 sohu.com,tieba.baidu.com,uuk14.com##.advertise 
 tieba.baidu.com##.post_client_down 
@@ -154,7 +150,6 @@ m.baidu.com###appBanner
 www.baidu.com##div.ecr-pc-game-gn-also-search-biz,table[id^="400"],table[id^="500"],div[id^="400"],div[id^="300"],a[href$="e.baidu.com/?refer=666"] 
 ||ecmb.bdimg.com^ 
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id]) ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy 
-baidu.com###results > .ec_wise_ad:nth-of-type(1) > .ec_ad_results > .ec_adv_first.ec_wise_pp.ec_resitem.c-container
 baidu.com###ec_wise_adtopnum
 
 ||bdimg.share.baidu.com/static/js/* 
@@ -172,7 +167,6 @@ tieba.baidu.com##.myPhoto
 tieba.baidu.com##.dialog-outer 
 www.baidu.com###results > .c-result.result:nth-of-type(3) > .c-container 
 baidu.com##.ec_wise_ad 
-www.baidu.com###ec_wise_adtopnum 
 tieba.baidu.com##.j_container.container > .daoliu_sign_in_show.j_daoliu_sign_in_prompt.daoliu_sign_in_prompt
 tieba.baidu.com##.daoliu_sign_in_prompt_img.daoliu_sign_in_show
 tieba.baidu.com###main > .bottom-wonderful-recommend
@@ -211,7 +205,6 @@ tieba.baidu.com###pblist > li[class]:not(.j_post_list_item)
 baidu.com###search_bottomad
 bilibili.com,bilibili.kankanews.com,bilibili.tv##.ad-f
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
@@ -241,8 +234,6 @@ tieba.baidu.com##.u_tbmall
 tieba.baidu.com##.u_wallet
 tieba.baidu.com##.u_joinvip
 tieba.baidu.com##.split
-tieba.baidu.com##DIV[style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;"]
-tieba.baidu.com##[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 930px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
 tieba.baidu.com##.dialogJmodal[style="z-index: 50000; width: 1873px; height: 1657px;"]
 tieba.baidu.com##.u_hermes
 tieba.baidu.com##IFRAME[style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1"]
@@ -266,7 +257,6 @@ zhidao.baidu.com###userbar-msg
 zhidao.baidu.com###wgt-topic
 zhidao.baidu.com###wgt-user
 zhidao.baidu.com##.cms-slide
-zhidao.baidu.com##.cms-slide.cms-slide-lazy
 zhidao.baidu.com##.shop-entrance
 zhidao.baidu.com##.wgt-push.mod-shadow.last
 zhidao.baidu.com##.widget-sma
@@ -441,7 +431,6 @@ bilibili.com##.player-inner-top.pink
 www.bilibili.com###b_app_link
 m.bilibili.com##.index__downloadBtn__src-home-topArea-
 m.bilibili.com###b_app_link
-m.bilibili.com###b_app_link
 m.bilibili.com##.wrapper > div:nth-of-type(5)
 m.bilibili.com##.reg-tooltip
 m.bilibili.com###link_to_app
@@ -454,7 +443,6 @@ m.bilibili.com##.index__cccTips__src-videoPage-player-
 m.bilibili.com##.index__optionLink__src-videoPage-footer-:nth-of-type(2)
 m.bilibili.com##.index__cccTips__M-videoPage-player-
 bilibili.com##DIV.i_menu.i_menu_login
-m.bilibili.com##.index__cccTips__M-videoPage-player-
 m.bilibili.com##.index__upBtn__M-videoPage-topArea-
 www.bilibili.com##.mobile.nav-item
 
@@ -466,14 +454,13 @@ www.bilibili.com##.mobile.nav-item
 |http://m.woaitingshu.com/css/*.js
 
 !9DM
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.portal_block_summary
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com###hezuo
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:has-text(自运营游戏专区)
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.acpbn.bml.bm
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:nth-of-type(1)
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
-www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##object
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##.portal_block_summary
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com###hezuo
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##div.cl.flg.bmw.bm:has-text(自运营游戏专区)
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##.acpbn.bml.bm
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##div.cl.flg.bmw.bm:nth-of-type(1)
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##.cl.z.c1extra
+www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##object
 ||static.anquan.org/static/outer/js/aq_auth.js$script
 ||*/static/js/common_extra.js$script
 
@@ -560,4 +547,3 @@ www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
 
 ! wordpress cookies声明
 wordpress.com##.widget_eu_cookie_law_widget.widget
-
