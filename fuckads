@@ -3,19 +3,11 @@
 ! Title: EvilGoogle---狂操法则
 ! Expires: 30 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
-
-
 ! 风车动漫15sAD 
 ||*.6998.cc/pic/fgr/dm*_*.swf 
 ||*.dm530.com/pic/fgr/dm*_*.swf 
 6998.cc###adv
 m.dm530.net##.pageLine
-
-
-
-*.com/js/indextop.js|
-*.com/js/config.js|
-
 
 ! 优酷强制登录
 ||static.youku.com/v*/index/js/popup.js 
@@ -31,9 +23,6 @@ m.youku.com##div:nth-of-type(10) > .mask
 ||imgcache.qq.com/tencentvideo_v1/player/partialup/MediaPlugin.swf?*
 v.qq.com###mod_float_box
 
-
-
-
 !狂草百家号
 baidu.com##.result:has-text(baijiahao.baidu.com) 
 baidu.com##[data-log*="'mu':'https://baijiahao.baidu.com"]
@@ -43,7 +32,7 @@ baidu.com##[data-log*="'mu':'http://baijiahao.baidu.com"]
 !－－－－－注意此条规则只适用于ublock original adblock不支持－－此条开始－－－－
 tieba.baidu.com##li:has(> a.j_click_stats)
 !－－－－－注意此条规则只适用于ublock original adblock不支持－－此条结束－－－－
-注意此条规则只适用于ublock original adblock不支持
+
 tieba.baidu.com##.tl_shadow_for_app
 tieba.baidu.com##.img_desc
 tieba.baidu.com##.footer_logo
@@ -63,6 +52,7 @@ wapp.baidu.com##.showBar.fixed_bar
 m.baidu.com##.tc-card:nth-of-type(2)
 tieba.baidu.com##.ui_image_header_bottom
 tieba.baidu.com##.j_videoFootDownBtn.videoFooter
+
 ！狂操贴吧秀点 游戏 商城
 tieba.baidu.com##.u_game,.u_xiu8,.u_mytbmall
 tieba.baidu.com##.search_back_box
@@ -70,7 +60,6 @@ tieba.baidu.com##.search_back_box
 www.baidu.com##.qrcodeCon
 www.baidu.com##.bdbriimg.bdbri
 www.baidu.com##.bri
-
 
 !狂操贴吧触点推广
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.footer_logo
@@ -132,13 +121,13 @@ tieba.baidu.com##DIV[style="top: 0px; left: 0px; position: fixed; width: 1873px;
 wapbaike.baidu.com###chain + div[id]
 pan.baidu.com##.clearfix.center.buyvip-pack
 
-
 !网盘垃圾
 pan.baidu.com##.welcome-box
 pan.baidu.com##.welcome-mask
 pan.baidu.com##.cent-banner.banner-active
 yun.baidu.com##.module-canvas
 yun.baidu.com###dialog1
+
 !贴吧垃圾抬头
 tieba.baidu.com##.u_bdhome
 tieba.baidu.com##.j_search_nav.search_nav
@@ -233,7 +222,7 @@ tieba.baidu.com##.tl_shadow + * + li[class]:not(.tl_shadow)
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
-　
+
 .com/ads/$image,object,subdocument
 /ads-arc.
 /pagead2.
@@ -283,7 +272,6 @@ zhidao.baidu.com##.wgt-push.mod-shadow.last
 zhidao.baidu.com##.widget-sma
 tieba.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 baidu.com##.result-op.c-container[tpl="soft"]
-
 
 !贴吧顶端视频
 tieba.baidu.com###video_frs_head
@@ -347,13 +335,10 @@ www.zhihu.com##.show.mutiview-dialog-bg
 m.cnbeta.com##.cbimage-fixed
 www.cnbeta.com###mask
 
-
-
 !isp垃圾,主要指手机上的联通电信"流量查询帮手"之类的垃圾
 ||106.119.0.78
 ||221.179.140.145$image
 ||221.179.140.145:9090/*
-
 
 !垃圾城通
 ctfile.com##li:nth-of-type(3) > span
@@ -386,13 +371,10 @@ www.empflix.com###imfb
 m.douban.com##.show.bottom_ad_download
 m.sohu.com##.detail-bottom
 
-
-
 s.m.taobao.com###o9784
 
 sourceforge.net###banner-sterling
 sourceforge.net###sidebar > .sterling:nth-of-type(1)
-
 
 !ｊａｎｄａｎ垃圾
 i.jandan.net###_ta_qaz_ball
@@ -414,13 +396,9 @@ wk.baidu.com###addToHomeBtn
 ||wenku-cms.bj.bcebos.com/v1/na/*.*$image
 wk.baidu.com###ad2to3
 
-
-
-
 scpfoundation.123ubb.com##.addthis-smartlayers-mobile.addthis-smartlayers.at-share-dock-outer
 
 ||http://static.adf.ly/js/display.js
-
 
 !垃圾漂浮物
 www.pc6.com##.m-open-box
@@ -488,11 +466,16 @@ www.bilibili.com##.mobile.nav-item
 |http://m.woaitingshu.com/css/*.js
 
 !9DM
-www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.portal_block_summary
-www.9damao.com,www.9damaomods.com,zhongyidiantong.com###hezuo
-www.9damao.net##div.cl.flg.bmw.bm:has-text(自运营游戏专区)
-
-
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.portal_block_summary
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com###hezuo
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:has-text(自运营游戏专区)
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.acpbn.bml.bm
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:nth-of-type(1)
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
+www.9damaomods.com,www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##object
+||static.anquan.org/static/outer/js/aq_auth.js$script
+||*/static/js/common_extra.js$script
 
 m.woaitingshu.com##.nowidth.on
 
@@ -557,14 +540,24 @@ www.douyu.com##[class^="multiBitRate"]
 debiancn.org## li:has-text(拉人)
 
 
-www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.acpbn.bml.bm
-wwww.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##div.cl.flg.bmw.bm:nth-of-type(1)
-www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
-www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##.cl.z.c1extra
-www.9damao.net,www.9damao.com,www.9damaomods.com,zhongyidiantong.com##object
-||static.anquan.org/static/outer/js/aq_auth.js$script
-||*/static/js/common_extra.js$script
+www.cnbeta.com##.swiper-slide:has-text(京东)
+www.cnbeta.com##.item:has-text(优惠券)
 
-www.nexusmods.com##.areplacer
-www.nexusmods.com###donation_banner_wrapper
-www.nexusmods.com##.beta-banner-wrapper
+! 
+www.bilibili.com##.bilibili-player-video-top
+www.bilibili.com##.bilibili-player-electric-panel-wrap-list-head
+www.bilibili.com##.video-page-game-card
+www.bilibili.com##.reply-notice
+
+
+!微云垃圾
+www.weiyun.com##.modal-mask
+www.weiyun.com##.announcement-notice.modal-show.modal
+
+! bilibili视频播放完后的其他视频推荐
+www.bilibili.com##.bilibili-player-electric-panel-wrap
+www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
+
+! wordpress cookies声明
+wordpress.com##.widget_eu_cookie_law_widget.widget
+
