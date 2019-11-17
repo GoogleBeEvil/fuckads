@@ -426,6 +426,7 @@ tieba.baidu.com##.right_bright.right_section > div:nth-of-type(5)
 ||com/pic/fgr/$script,object-subrequest
 
 !bilibili垃圾客户端
+bilibili.com###fixed_app_download
 bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.player-inner-top.pink
 www.bilibili.com###b_app_link
