@@ -25,6 +25,8 @@ v.qq.com###mod_float_box
 baidu.com##.result:has-text(baijiahao.baidu.com) 
 baidu.com##[data-log*="'mu':'https://baijiahao.baidu.com"]
 baidu.com##[data-log*="'mu':'http://baijiahao.baidu.com"]
+baidu.com##.result.c-container:has(.nor-src-icon-with-v)
+
 
 !狂操贴吧广告
 !－－－－－注意此条规则只适用于ublock original adblock不支持－－此条开始－－－－
