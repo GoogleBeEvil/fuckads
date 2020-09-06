@@ -63,6 +63,8 @@ www.baidu.com##.bri
 !贴吧触屏版广告引导APP，我可去你妈的吧
 tieba.baidu.com##.bottom-guide,.pb_cut_hot_recommend,.footer_logo,.footer-version.footer_link_highlight.scale-1px.footer_link.j_footer_link,.father_cut_daoliu,.pb_floow_load.lzl_cut_more_btn
 
+!屏蔽“屏蔽翻页按钮”
+tieba.baidu.com##.father-cut-pager-class-no-page > #list_pager:style(visibility:visible!important; height: auto!important)
 !狂操贴吧触点推广
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.footer_logo
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
@@ -563,8 +565,9 @@ wordpress.com##.widget_eu_cookie_law_widget.widget
 www.nexusmods.com##.areplacer
 www.nexusmods.com###rj-vortex
 www.nexusmods.com###rj-footer
-
-
+！京东二维码
+msigaming.jd.com##.fixed.jTdCode
+list.jd.com##.qrcode-container
 
 
 
