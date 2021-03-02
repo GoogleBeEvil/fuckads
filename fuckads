@@ -574,5 +574,18 @@ list.jd.com##.qrcode-container
 tieba.baidu.com##.tieba_notice_theme2.tieba_notice
 tieba.baidu.com##.tbui_aside_float_bar
 tieba.baidu.com##.card_banner_link.card_banner
+||www.laomo.me^$script,domain=www.mpyit.com
+
+news.mydrivers.com###a_showhotnews_list_dia
+
+www.baidu.com###content_right
+
+www.baidu.com##.c-span3:has-text(好看视频)
+tieba.baidu.com##.tieba-login-wrapper
+tieba.baidu.com##.tieba-login-background
+
+
+www.bilibili.com##.unlogin-popover-avatar.unlogin-popover
+
 
 18comic.*##.hidden-xs.forum-entry.wrapper
