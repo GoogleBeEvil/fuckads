@@ -1,6 +1,12 @@
+[Adblock Plus 2.0]
+! Version: 20210326
 ! Title: EvilGoogle---狂操法则
+! Last modified: 20210326
 ! Expires: 30 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
+! Licence: DWTFYW
+
+
 ! 风车动漫15sAD 
 ||*.6998.cc/pic/fgr/dm*_*.swf 
 ||*.dm530.com/pic/fgr/dm*_*.swf 
@@ -15,6 +21,13 @@ m.youku.com###FOODGXC_60j2s
 m.youku.com##.Banner > .border-bottom
 m.youku.com##div:nth-of-type(10) > .pop.IOS-pop
 m.youku.com##div:nth-of-type(10) > .mask
+
+! 登录你妈
+www.bilibili.com##.bilibili-player-video-toast-wrp
+bilibili.com##.lt-row
+bilibili.com##.unlogin-popover-avatar.unlogin-popover
+csdn.net##.login-mark
+csdn.net###passportbox
 
 ! 点草腾讯视频广告
 |http://imgcache.qq.com/tencentvideo_v1/player/MediaPlugin.swf
@@ -44,7 +57,6 @@ tieba.baidu.com###thread_list>li:nth-of-type(7)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad\
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="\"user_id\":1"]):not([data-field*="\"user_id\":2"]):not([data-field*="\"user_id\":3"]):not([data-field*="\"user_id\":4"]):not([data-field*="\"user_id\":5"]):not([data-field*="\"user_id\":6"]):not([data-field*="\"user_id\":7"]):not([data-field*="\"user_id\":8"]):not([data-field*="\"user_id\":9"])
-||imgsrc.baidu.com/forum/pic/item/252dd42a2834349bdfde342fc3ea15ce37d3be44.jpg$image
 wapp.baidu.com##.appPromote.pb.\39 392
 wapp.baidu.com##.fixed_bar_logo
 wapp.baidu.com##.showBar.fixed_bar
@@ -52,10 +64,9 @@ m.baidu.com##.tc-card:nth-of-type(2)
 tieba.baidu.com##.ui_image_header_bottom
 tieba.baidu.com##.j_videoFootDownBtn.videoFooter
 
-！狂操贴吧秀点 游戏 商城
+!狂操贴吧秀点 游戏 商城
 tieba.baidu.com##.u_game,.u_xiu8,.u_mytbmall
 tieba.baidu.com##.search_back_box
-! 2019/2/19 https://www.baidu.com
 www.baidu.com##.qrcodeCon
 www.baidu.com##.bdbriimg.bdbri
 www.baidu.com##.bri
@@ -70,6 +81,8 @@ tieba.baidu.com##.father-cut-pager-class-no-page > #list_pager:style(visibility:
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
 
 !百度客户端推广
+baidu.com##.bottom-guide-box
+baidu.com##div.nav-bar-wrapper
 tieba.baidu.com##.pb_cut_hot_recommend
 tieba.baidu.com##.father_cut_daoliu
 tieba.baidu.com##.j_enter_lzl_daoliu
@@ -123,6 +136,10 @@ tieba.baidu.com###pb_imgs > .pb_imgs_right2 > span
 tieba.baidu.com##DIV[style="top: 0px; left: 0px; position: fixed; width: 1873px; height: 959px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0);"]
 wapbaike.baidu.com###chain + div[id]
 pan.baidu.com##.clearfix.center.buyvip-pack
+www.baidu.com###content_right
+www.baidu.com##.c-span3:has-text(好看视频)
+tieba.baidu.com##.tieba-login-wrapper
+tieba.baidu.com##.tieba-login-background
 
 !网盘垃圾
 pan.baidu.com##.welcome-box
@@ -152,6 +169,10 @@ tieba.baidu.com##.hongbao_page_pop_common.hongbao_page_pop_con
 tieba.baidu.com##.hongbao_page_pop_common.hongbao_page_pop_back
 m.baidu.com##.tc-card:nth-of-type(3)
 m.baidu.com###appBanner
+tieba.baidu.com##.tieba_notice_theme2.tieba_notice
+tieba.baidu.com##.tbui_aside_float_bar
+tieba.baidu.com##.card_banner_link.card_banner
+
 
 !百度垃圾js 
 www.baidu.com##div.ecr-pc-game-gn-also-search-biz,table[id^="400"],table[id^="500"],div[id^="400"],div[id^="300"],a[href$="e.baidu.com/?refer=666"] 
@@ -301,14 +322,8 @@ user.qzone.qq.com###QM_Container_100002
 user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
 user.qzone.qq.com###QM_Container_100005
 
-!ｑｑ空间傻逼视频推荐
+!QQ空间傻逼视频推荐
 qzone.qq.com##.f-s-s:has-text(好友热播)
-
-www.pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
-
-!A站客户端推广
-m.acfun.tv###prompt-box
-m.acfun.tv###btn-app
 
 !知乎客户端推广
 zhihu.com##.app-promotion-bar
@@ -357,6 +372,7 @@ alicdn\.com/.+guessulike-min\.css.*$
 .com/assets/js/common/discor.js
 .com/home/js/float.js
 .com/home/js/discor.js
+
 !垃圾图床 多为H
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 www.proporn.com###adx_ad
@@ -364,7 +380,11 @@ www.proporn.com###bottom_banner_block
 www.empflix.com##.lastLiAv.pInterstitialIn
 www.empflix.com##.pInterstitial
 www.empflix.com###imfb
+18comic.*##.hidden-xs.forum-entry.wrapper
+
+
 ||img.yhdichan.com/img/weishi/noc/4/640x150.jpg$image
+
 m.douban.com##.show.bottom_ad_download
 m.sohu.com##.detail-bottom
 
@@ -394,7 +414,6 @@ wk.baidu.com###addToHomeBtn
 wk.baidu.com###ad2to3
 
 scpfoundation.123ubb.com##.addthis-smartlayers-mobile.addthis-smartlayers.at-share-dock-outer
-
 ||http://static.adf.ly/js/display.js
 
 !垃圾漂浮物
@@ -432,41 +451,47 @@ tieba.baidu.com##.right_bright.right_section > div:nth-of-type(5)
 
 ||com/pic/fgr/$script,object-subrequest
 
+
+!A站客户端推广
+m.acfun.tv###prompt-box
+m.acfun.tv###btn-app
+
 !bilibili垃圾客户端
 bilibili.com###fixed_app_download
 bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.player-inner-top.pink
-www.bilibili.com###b_app_link
-m.bilibili.com##.index__downloadBtn__src-home-topArea-
-m.bilibili.com###b_app_link
-m.bilibili.com##.wrapper > div:nth-of-type(5)
-m.bilibili.com##.reg-tooltip
-m.bilibili.com###link_to_app
-m.bilibili.com##.index__lastTips__src-videoPage-player-
-m.bilibili.com##.index__downloadBtn__src-videoPage-topArea-
-m.bilibili.com##.index__downloadBtn__src-partition-topArea-
-m.bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
-m.bilibili.com##.index__upBtn__src-videoPage-topArea-
-m.bilibili.com##.index__cccTips__src-videoPage-player-
-m.bilibili.com##.index__optionLink__src-videoPage-footer-:nth-of-type(2)
-m.bilibili.com##.index__cccTips__M-videoPage-player-
+bilibili.com###b_app_link
+bilibili.com##.index__downloadBtn__src-home-topArea-
+bilibili.com###b_app_link
+bilibili.com##.wrapper > div:nth-of-type(5)
+bilibili.com##.reg-tooltip
+bilibili.com###link_to_app
+bilibili.com##.index__lastTips__src-videoPage-player-
+bilibili.com##.index__downloadBtn__src-videoPage-topArea-
+bilibili.com##.index__downloadBtn__src-partition-topArea-
+bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
+bilibili.com##.index__upBtn__src-videoPage-topArea-
+bilibili.com##.index__cccTips__src-videoPage-player-
+bilibili.com##.index__optionLink__src-videoPage-footer-:nth-of-type(2)
+bilibili.com##.index__cccTips__M-videoPage-player-
 bilibili.com##DIV.i_menu.i_menu_login
-m.bilibili.com##.index__upBtn__M-videoPage-topArea-
-www.bilibili.com##.mobile.nav-item
-www.bilibili.com##.bilibili-player-video-top
-www.bilibili.com##.bilibili-player-electric-panel-wrap-list-head
-www.bilibili.com##.video-page-game-card
-www.bilibili.com##.reply-notice
-www.bilibili.com###fixed_app_download
-www.bilibili.com##.mobile-link-l
-www.bilibili.com##.footer-wrp
-www.bilibili.com##.international-footer
+bilibili.com##.index__upBtn__M-videoPage-topArea-
+bilibili.com##.mobile.nav-item
+bilibili.com##.bilibili-player-video-top
+bilibili.com##.bilibili-player-electric-panel-wrap-list-head
+bilibili.com##.video-page-game-card
+bilibili.com##.reply-notice
+bilibili.com###fixed_app_download
+bilibili.com##.mobile-link-l
+bilibili.com##.footer-wrp
+bilibili.com##.international-footer
 search.bilibili.com##.international-footer
-www.bilibili.com###activity_vote
-www.bilibili.com##.feedback-btn
+bilibili.com###activity_vote
+bilibili.com##.feedback-btn
+
 ! bilibili视频播放完后的其他视频推荐
-www.bilibili.com##.bilibili-player-electric-panel-wrap
-www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
+bilibili.com##.bilibili-player-electric-panel-wrap
+bilibili.com##.bmiddle.bilibili-player-electric-panel-link
 
 !m.5tps.com
 ||quw18.com^	
@@ -474,6 +499,7 @@ www.bilibili.com##.bmiddle.bilibili-player-electric-panel-link
 
 !woaitingshu
 |http://m.woaitingshu.com/css/*.js
+m.woaitingshu.com##.nowidth.on
 
 !9DM
 www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##.portal_block_summary
@@ -486,10 +512,30 @@ www.9damaomods.com,www.9damao.net,www.9damao.com,zhongyidiantong.com##object
 ||static.anquan.org/static/outer/js/aq_auth.js$script
 ||*/static/js/common_extra.js$script
 
-m.woaitingshu.com##.nowidth.on
+!垃圾城通网盘
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(3)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(4)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(2)
+ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(1) > span
+ctfile.com##div.download-simple-box.download-box:nth-of-type(2)
+
+!douyu
+www.douyu.com##.broadcastDiv-af5699
+www.douyu.com##.BarrageBanner
+www.douyu.com##[class^="multiBitRate"]
+
+!irc傻逼推广
+debiancn.org## li:has-text(拉人)
+
+!微云垃圾
+www.weiyun.com##.modal-mask
+www.weiyun.com##.announcement-notice.modal-show.modal
+
+！京东二维码
+msigaming.jd.com##.fixed.jTdCode
+list.jd.com##.qrcode-container
 
 tQieba.baidu.com##.showBar.fixed_bar
-
 tieba.baidu.com##.iSlider-wrapper-container-hot-thread
 m.5tps.com##div:nth-of-type(8)
 m.sogou.com###bottom_appad
@@ -500,92 +546,31 @@ m.sogou.com##.vr-recommend
 ||mpic.jmgehn.cn/tr-2/2017/08/0/1501749088305.gif$image
 m.biqugewx.com###cZ115061841597923_mask
 i.jandan.net##div:nth-of-type(8)
-
 www.techbang.com##.mobile_full_ads
-
 www.techbang.com###scupio_interstitial
-
 m.sohu.com###nicecontainer
-
 www.google.com.hk###taw
 www.ghacks.net##.mrf-madFluid.mrf-madHeight-250.mrf-madWidth-300.mrf-madLoaded.adSemiInvisible.sRoba.mrf-preInsertedMad.mad.mrf-adv:nth-of-type(3)
 www.ghacks.net###mrf-footer
 www.ghacks.net###mrf-1
 www.ghacks.net###wrapper
 www.ghacks.net##.footer
-
-
-
+news.mydrivers.com###a_showhotnews_list_dia
+wordpress.com##.widget_eu_cookie_law_widget.widget
+||www.laomo.me^$script,domain=www.mpyit.com
+www.nexusmods.com##.areplacer
+www.nexusmods.com###rj-vortex
+www.nexusmods.com###rj-footer
 ||img.yokaoo.com/img/360weishiceshi/7/640x200-2.gif$image
-
 m.wuxiaworld.com##.cc-color-override-688238583.cc-bottom.cc-theme-edgeless.cc-type-info.cc-floating.cc-window
-
 i.jandan.net##.wechat-hide.comment-hide
 m.youtube.com##.pfb
 dota2-zh.gamepedia.com##.cc_bottom.cc_banner-wrapper
 www.cnbeta.com###dfb-wrapper-848966144-1678-1512110177417 > ins
 cloud.abc119.cc###ico-p14860qnrmk
-
 cs.rin.ru###tt_mobile_banner
 www.cnbeta.com##.cooperation.item:nth-of-type(4)
 www.cnbeta.com###dfb-wrapper-848966144-1677-1512110177417 > ins
-
-!垃圾城通网盘
-ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(3)
-ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(4)
-ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(2)
-ctfile.com##div.download-simple-box.download-box:nth-of-type(4) > ul > li:nth-of-type(1) > span
-ctfile.com##div.download-simple-box.download-box:nth-of-type(2)
-
-
-
-!douyu
-www.douyu.com##.broadcastDiv-af5699
-www.douyu.com##.BarrageBanner
-www.douyu.com##[class^="multiBitRate"]
- 
-
-!irc傻逼推广
-debiancn.org## li:has-text(拉人)
-
-
 www.cnbeta.com##.swiper-slide:has-text(京东)
 www.cnbeta.com##.item:has-text(优惠券)
-
-
-!微云垃圾
-www.weiyun.com##.modal-mask
-www.weiyun.com##.announcement-notice.modal-show.modal
-
-
-
-! wordpress cookies声明
-wordpress.com##.widget_eu_cookie_law_widget.widget
-
-www.nexusmods.com##.areplacer
-www.nexusmods.com###rj-vortex
-www.nexusmods.com###rj-footer
-！京东二维码
-msigaming.jd.com##.fixed.jTdCode
-list.jd.com##.qrcode-container
-
-
-
-tieba.baidu.com##.tieba_notice_theme2.tieba_notice
-tieba.baidu.com##.tbui_aside_float_bar
-tieba.baidu.com##.card_banner_link.card_banner
-||www.laomo.me^$script,domain=www.mpyit.com
-
-news.mydrivers.com###a_showhotnews_list_dia
-
-www.baidu.com###content_right
-
-www.baidu.com##.c-span3:has-text(好看视频)
-tieba.baidu.com##.tieba-login-wrapper
-tieba.baidu.com##.tieba-login-background
-
-
-www.bilibili.com##.unlogin-popover-avatar.unlogin-popover
-
-
-18comic.*##.hidden-xs.forum-entry.wrapper
+www.pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
