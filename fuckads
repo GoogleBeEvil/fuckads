@@ -346,6 +346,7 @@ www.zhihu.com##.show.mutiview-dialog-bg
 ||cnbetacdn.com/320x50.
 m.cnbeta.com##.cbimage-fixed
 www.cnbeta.com###mask
+cnbeta.com##DIV[style^="display:block !important;position:fixed"]
 
 !isp垃圾,主要指手机上的联通电信"流量查询帮手"之类的垃圾
 ||106.119.0.78
