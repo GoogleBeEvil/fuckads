@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 20210326
 ! Title: EvilGoogle---狂操法则
-! Last modified: 20210326
+! Last modified: 20210328
 ! Expires: 30 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
 ! Licence: DWTFYW
@@ -36,10 +36,7 @@ v.qq.com###mod_float_box
 
 !狂草百家号
 baidu.com##.result:has-text(baijiahao.baidu.com) 
-baidu.com##[data-log*="'mu':'https://baijiahao.baidu.com"]
-baidu.com##[data-log*="'mu':'http://baijiahao.baidu.com"]
-baidu.com##.result.c-container:has(.nor-src-icon-with-v)
-
+baidu.com##.result:has(img[src$="@w_100,h_100"])
 
 !狂操贴吧广告
 !－－－－－注意此条规则只适用于ublock original adblock不支持－－此条开始－－－－
