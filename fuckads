@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 20210326
 ! Title: EvilGoogle---狂操法则
-! Last modified: 20210328
+! Last modified: 20210713
 ! Expires: 30 days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
 ! Licence: DWTFYW
@@ -288,6 +288,8 @@ zhidao.baidu.com##.widget-sma
 tieba.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 baidu.com##.result-op.c-container[tpl="soft"]
 
+!反百度反superpreloader脚本工作
+baidu.com##.c-img-radius-large.c-img-border
 !贴吧顶端视频
 tieba.baidu.com###video_frs_head
 
@@ -486,7 +488,8 @@ bilibili.com##.international-footer
 search.bilibili.com##.international-footer
 bilibili.com###activity_vote
 bilibili.com##.feedback-btn
-
+bilibili.com##.m-space-float-openapp.open-app-btn
+bilibili.com##li:has-text(会员)
 ! bilibili视频播放完后的其他视频推荐
 bilibili.com##.bilibili-player-electric-panel-wrap
 bilibili.com##.bmiddle.bilibili-player-electric-panel-link
@@ -572,3 +575,5 @@ www.cnbeta.com###dfb-wrapper-848966144-1677-1512110177417 > ins
 www.cnbeta.com##.swiper-slide:has-text(京东)
 www.cnbeta.com##.item:has-text(优惠券)
 www.pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
+m.mydrivers.com##li:has-text(陈驰)
+m.mydrivers.com##li:has-text(华为)
