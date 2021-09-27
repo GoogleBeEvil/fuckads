@@ -28,6 +28,7 @@ bilibili.com##.lt-row
 bilibili.com##.unlogin-popover-avatar.unlogin-popover
 csdn.net##.login-mark
 csdn.net###passportbox
+csdn.net##.passport-login-container
 
 ! 点草腾讯视频广告
 |http://imgcache.qq.com/tencentvideo_v1/player/MediaPlugin.swf
@@ -490,9 +491,13 @@ bilibili.com###activity_vote
 bilibili.com##.feedback-btn
 bilibili.com##.m-space-float-openapp.open-app-btn
 bilibili.com##li:has-text(会员)
+bilibili.com##.trial-version-wrap
+bilibili.com##.trending
+bilibili.com##.login-panel-popover
 ! bilibili视频播放完后的其他视频推荐
 bilibili.com##.bilibili-player-electric-panel-wrap
 bilibili.com##.bmiddle.bilibili-player-electric-panel-link
+
 
 !m.5tps.com
 ||quw18.com^	
@@ -577,3 +582,30 @@ www.cnbeta.com##.item:has-text(优惠券)
 www.pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
 m.mydrivers.com##li:has-text(陈驰)
 m.mydrivers.com##li:has-text(华为)
+
+
+
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
+cn.bing.com###b_notificationContainer_bop
+
+! 2021-09-13 https://fanyi.baidu.com
+fanyi.baidu.com##.desktop-guide
+fanyi.baidu.com##.cleafix.footer
+fanyi.baidu.com##.trans-other-right.trans-right
+fanyi.baidu.com###app-read
+fanyi.baidu.com##.header
+www.baidu.com##.op-guide
+www.baidu.com##.s-hotsearch-wrapper
+www.baidu.com###s_side_wrapper
+www.baidu.com##.result.c-container.new-pmd:has-text(睿享717)
+www.baidu.com##.result.c-container.new-pmd:has-text(睿享方舟)
+
+userstyles.org##.walking
+
+
+music.163.com###topbar-download-link
+music.163.com##.lst
+steamdb.info##.hide-small.welding-torch
+
+
+
