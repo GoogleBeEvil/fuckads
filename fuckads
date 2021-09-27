@@ -1,10 +1,16 @@
 [Adblock Plus 2.0]
 ! Version: 20210326
 ! Title: EvilGoogle---狂操法则
-! Last modified: 20210713
-! Expires: 30 days 
+! Last modified: 20210927
+! Expires: 10days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
 ! Licence: DWTFYW
+
+www.baidu.com##.op-guide
+www.baidu.com##.s-hotsearch-wrapper
+www.baidu.com###s_side_wrapper
+www.baidu.com##.result.c-container.new-pmd:has-text(睿享717)
+www.baidu.com##.result.c-container.new-pmd:has-text(睿享方舟)
 
 
 ! 风车动漫15sAD 
@@ -81,8 +87,6 @@ tieba.baidu.com##.father-cut-pager-class-no-page > #list_pager:style(visibility:
 !百度客户端推广
 baidu.com##.bottom-guide-box
 baidu.com##div.nav-bar-wrapper
-tieba.baidu.com##.pb_cut_hot_recommend
-tieba.baidu.com##.father_cut_daoliu
 tieba.baidu.com##.j_enter_lzl_daoliu
 ||m.baidu.com/se/static/js/modules/invoke/app/*
 tieba.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
@@ -463,7 +467,6 @@ bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.player-inner-top.pink
 bilibili.com###b_app_link
 bilibili.com##.index__downloadBtn__src-home-topArea-
-bilibili.com###b_app_link
 bilibili.com##.wrapper > div:nth-of-type(5)
 bilibili.com##.reg-tooltip
 bilibili.com###link_to_app
@@ -482,11 +485,9 @@ bilibili.com##.bilibili-player-video-top
 bilibili.com##.bilibili-player-electric-panel-wrap-list-head
 bilibili.com##.video-page-game-card
 bilibili.com##.reply-notice
-bilibili.com###fixed_app_download
 bilibili.com##.mobile-link-l
 bilibili.com##.footer-wrp
 bilibili.com##.international-footer
-search.bilibili.com##.international-footer
 bilibili.com###activity_vote
 bilibili.com##.feedback-btn
 bilibili.com##.m-space-float-openapp.open-app-btn
@@ -588,17 +589,12 @@ m.mydrivers.com##li:has-text(华为)
 www.youtube.com##ytd-popup-container.ytd-app.style-scope
 cn.bing.com###b_notificationContainer_bop
 
-! 2021-09-13 https://fanyi.baidu.com
+! 狂草百度翻译
 fanyi.baidu.com##.desktop-guide
 fanyi.baidu.com##.cleafix.footer
 fanyi.baidu.com##.trans-other-right.trans-right
 fanyi.baidu.com###app-read
 fanyi.baidu.com##.header
-www.baidu.com##.op-guide
-www.baidu.com##.s-hotsearch-wrapper
-www.baidu.com###s_side_wrapper
-www.baidu.com##.result.c-container.new-pmd:has-text(睿享717)
-www.baidu.com##.result.c-container.new-pmd:has-text(睿享方舟)
 
 userstyles.org##.walking
 
@@ -606,6 +602,3 @@ userstyles.org##.walking
 music.163.com###topbar-download-link
 music.163.com##.lst
 steamdb.info##.hide-small.welding-torch
-
-
-
