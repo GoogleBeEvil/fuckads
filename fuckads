@@ -19,6 +19,13 @@ www.baidu.com##.result.c-container.new-pmd:has-text(睿享方舟)
 6998.cc###adv
 m.dm530.net##.pageLine
 
+! 4399 老子要你收集信息?
+www.4399.com###addiv
+www.4399.com###Anti_mask
+www.4399.com###Anti_open
+www.4399.com###pusher
+www.4399.com###countdown360p
+
 ! 优酷强制登录
 ||static.youku.com/v*/index/js/popup.js 
 ||static.youku.com/v*/index/js/qwindow.js 
