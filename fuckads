@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 20210326
 ! Title: EvilGoogle---狂操法则
-! Last modified: 20211106
+! Last modified: 2022-6-22
 ! Expires: 10days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
 ! Licence: DWTFYW
@@ -49,8 +49,9 @@ csdn.net##.passport-login-container
 v.qq.com###mod_float_box
 
 !狂草百家号
-baidu.com##.result:has-text(baijiahao.baidu.com) 
+baidu.com##.result:has-text(baijiahao.baidu.com)
 baidu.com##.result:has(img[src$="@w_100,h_100"])
+baidu.com##.result:has(img[src$="pic.rmb.bdstatic.com"])
 
 !狂操贴吧广告
 !－－－－－注意此条规则只适用于ublock original adblock不支持－－此条开始－－－－
