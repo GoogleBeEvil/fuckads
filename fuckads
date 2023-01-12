@@ -507,7 +507,11 @@ bilibili.com##.login-panel-popover
 ! bilibili视频播放完后的其他视频推荐
 bilibili.com##.bilibili-player-electric-panel-wrap
 bilibili.com##.bmiddle.bilibili-player-electric-panel-link
-
+bilibili.com##.bpx-player-toast-item
+bilibili.com##.bili-mini-mask
+bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+bilibili.com##.adblock-tips
+bilibili.com##.login-limit-mask
 
 !m.5tps.com
 ||quw18.com^	
@@ -611,3 +615,12 @@ userstyles.org##.walking
 music.163.com###topbar-download-link
 music.163.com##.lst
 steamdb.info##.hide-small.welding-torch
+ 
+
+
+
+mydrivers.com##li:has-text(会员)
+mydrivers.com##li:has-text(华为)
+mydrivers.com##li:has-text(车市谈)
+
+
