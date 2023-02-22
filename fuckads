@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 2022-6-22
 ! Title: EvilGoogle---狂操法则
-! Last modified: 2022-6-22
+! Last modified: 2023-2-22
 ! Expires: 10days 
 ! Homepage: https://github.com/GoogleBeEvil/fuckads/raw/master/fuckads
 ! Licence: DWTFYW
@@ -471,6 +471,9 @@ m.acfun.tv###prompt-box
 m.acfun.tv###btn-app
 
 !bilibili垃圾客户端
+
+bilibili.com##.adblock-tips
+bilibili.com##.login-limit-mask,.box-top-right,.bpx-player-toast-row,.bili-mini-mask
 bilibili.com###fixed_app_download
 bilibili.com##.wrapper > div:nth-of-type(6)
 bilibili.com##.player-inner-top.pink
@@ -616,11 +619,15 @@ music.163.com###topbar-download-link
 music.163.com##.lst
 steamdb.info##.hide-small.welding-torch
  
-
-
+sourceforge.net###messages
+bing.com##.b_algo:has-text(非常论坛)
+google.com##.g:has-text(非常论坛)
 
 mydrivers.com##li:has-text(会员)
 mydrivers.com##li:has-text(华为)
 mydrivers.com##li:has-text(车市谈)
+mydrivers.com##div.pluninfo:has-text(云南省保山市)
 
-
+h5.m.goofish.com##.warpWallPlaceholder-warpWall.rax-view-v2
+h5.m.goofish.com##.externalOut.rax-view-v2
+h5.m.goofish.com##.actionBar--actionBarWrap--3tz04jP.rax-view-v2
