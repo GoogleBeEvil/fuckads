@@ -679,3 +679,27 @@ www.bilibili.com##.info-text
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
 ##[href="/app/index.html"]
 
+!这么喜欢让别人登陆你妈？
+bilibili.com##.grid-anchor.recommended-swipe
+
+!"你算个鸡巴"系列
+bing.com##.b_phead_chat_link
+bing.com##.b_algo:has-text(非常论坛)
+google.com##.g:has-text(非常论坛)
+bilibili.com##.adblock-tips
+bilibili.com##.browser-tip
+sourceforge.net###messages
+h5.m.goofish.com##.warpWallPlaceholder-warpWall.rax-view-v2
+h5.m.goofish.com##.externalOut.rax-view-v2
+h5.m.goofish.com##.actionBar--actionBarWrap--3tz04jP.rax-view-v2
+www.17ttt.com###playtool > div > li
+www.17ttt.com##[href="http://www.abc151.com/"]
+www.17ttt.com###LrcDiv > li
+www.17ttt.com###word
+9damaogames.com##[href="https://9dm.fhyx.com"]
+9damaogames.com##[href="https://www.wo1wan.com/"]
+9damaogames.com##.cl.hdc
+9damaogames.com##.acpbn.bml.bm
+||img.9damaogames.com/pic/001/004.jpg$image
+||img.9damaogames.com/pic/001/*.jpg$image
+theporndude.com##.copyright-message
