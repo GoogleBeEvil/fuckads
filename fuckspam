@@ -5,13 +5,13 @@
 !=====================================================以下屏蔽sbam====================================
 
 !=================================================PC帖子列表==========================================
-！冷泠2016
+!冷泠2016
 tieba.baidu.com##[data-field*='"author_name":"\\u51b7\\u6ce02016"']
-！ybxiao1111
+!ybxiao1111
 tieba.baidu.com##[data-field*='"author_name":"ybxiao1111"']
-！ybxiao1111小号--忆海
+!ybxiao1111小号--忆海
 tieba.baidu.com##[data-field*='"author_name":"\\u5fc6\\u6d77"']
-！僭主政權
+!僭主政權
 tieba.baidu.com##[data-field*='"author_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
 !牛牛的约定
 tieba.baidu.com##[data-field*='"author_name":"\\u725b\\u725b\\u7684\\u7ea6\\u5b9a"']
@@ -46,17 +46,14 @@ tieba.baidu.com##li:has-text(zhangwuji156)
 tieba.baidu.com##li:has-text(本吧第一讲师)
 tieba.baidu.com##li:has-text(牛牛的约定)
 tieba.baidu.com##li:has-text(国王归来X)
-
-
 !==================================================贴吧层主===========================================
-
-！冷泠2016
+!冷泠2016
 tieba.baidu.com##[data-field*='"user_name":"\\u51b7\\u6ce02016"']
-！ybxiao1111
+!ybxiao1111
 tieba.baidu.com##[data-field*='"user_name":"ybxiao1111"']
-！ybxiao1111小号--忆海
+!ybxiao1111小号--忆海
 tieba.baidu.com##[data-field*='"user_name":"\\u5fc6\\u6d77"']
-！僭主政權
+!僭主政權
 tieba.baidu.com##[data-field*='"user_name":"\\u50ed\\u4e3b\\u653f\\u6b0a"']
 !zhangwuji156
 tieba.baidu.com##[data-field*='"user_name":"zhangwuji156"']
@@ -80,7 +77,6 @@ tieba.baidu.com##[data-field*='"user_name":"\\u5858\\u6816\\u7f8e\\u7537"']
 tieba.baidu.com##[data-field*='"user_name":"\\u5361\\u5f6d\\u5c11\\u5c07"']
 
 !==================================================手机页面==================================================
-冷泠2016
 tieba.baidu.com##li.list_item[data-info*="冷泠2016"]
 tieba.baidu.com##li.list_item[data-info*="ybxiao1111"]
 tieba.baidu.com##li.list_item[data-info*="\\u5fc6\\u6d77"]
@@ -101,7 +97,6 @@ tieba.baidu.com##li.list_item[data-info*="\\u5361\\u5f6d\\u5c11\\u5c07"]
 !===========================================================================================================
 
 !==================================================贴吧楼中楼================================================
-冷泠2016
 tieba.baidu.com##[data-field*="\'user_name\':\'冷泠2016'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'忆海'"]
@@ -119,8 +114,8 @@ tieba.baidu.com##[data-field*="\'user_name\':\'七色寒冰梦\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'ybxiao1111\'"]
 tieba.baidu.com##[data-field*="\'user_name\':\'卡彭少將\'"]  
 !=============================================贴吧楼中楼手机页面==============================================
-!=============================================贴吧楼中楼手机页面==============================================
 
+!=============================================贴吧楼中楼手机页面==============================================
 tieba.baidu.com##[data-info*="\冷泠2016\"]
 tieba.baidu.com##[data-info*="\ybxiao1111\"]
 tieba.baidu.com##[data-info*="\忆海\"]
@@ -161,7 +156,6 @@ bilibili.com##div.feed-card:has-text(陈翔六点半)
 bilibili.com##div.feed-card:has-text(493260618106936)
 bilibili.com##div.feed-card:has-text(涛哥玩配音)
 bilibili.com##div.feed-card:has-text(pcyxjy)
-bilibili.com##div.feed-card:has-text(涛哥玩配音)
 bilibili.com##div.feed-card:has-text(Jenobaby)
 bilibili.com##div.feed-card:has-text(TF家族)
 bilibili.com##div.feed-card:has-text(SMTOWN)
@@ -172,17 +166,16 @@ bilibili.com##div.feed-card:has-text(小Lin说)
 bilibili.com##div.feed-card:has-text(伤心欲茄222)
 bilibili.com##div.feed-card:has-text(DD小水本人)
 bilibili.com##div.feed-card:has-text(SMTOWN)
-bilibili.com##div.feed-card:has-text(SMTOWN)
-
-
-
-
-! 首页野鸡
+!首页野鸡
 bilibili.com##div.floor-single-card:has-text(直播中)
-! 没妈汽车恰饭号
+
+!没妈汽车恰饭号
 m.mydrivers.com##li:has-text(王略)
 m.mydrivers.com##li:has-text(落木)
 m.mydrivers.com##li:has-text(若风)
 m.mydrivers.com##li:has-text(车)
 mydrivers.com##div.pluninfo:has-text(云南省保山市)
 
+!chiphell 转人工
+chiphell.com###normalthread:has-text(listree)
+chiphell.com##.plhin:has-text(listree)
